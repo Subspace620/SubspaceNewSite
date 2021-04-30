@@ -14,6 +14,7 @@
         <!-- Navigation bar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
+                <!-- Top left logo/icon -->
                 <a class="navbar-brand" href="#">
                     <img src="./images/small-logo.jpg" width="32" height="32" />
                     Subspace 620
@@ -23,14 +24,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- Home button -->
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
+                        <!-- Executives Drop down -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Executives</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <!-- Current Executives button -->
                                 <li><a class="dropdown-item" href="./executives/current_executives.html">Current Crew</a></li>
-                                <li><a class="dropdown-item" href="#">Past Crew</a></li>
+                                <!-- Past Executives button -->
+                                <li><a class="dropdown-item" href="./executives/past_executives.html">Past Crew</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -38,6 +43,7 @@
             </div>
         </nav>
 
+        <!-- WIP Warning -->
         <div class="alert alert-danger alert-dismissible fade show" role="alert">
             This website is still a work in progress and for demonstration purposes only!
             If you have any comments or concerns regarding this, please feel free to contact
@@ -45,7 +51,8 @@
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
 
-        <p class="h2">Who are we?</p>
+        <!-- Who we are section -->
+        <p class="h2 text-white" style="background-color: rgba(0, 0, 0, 0.8)">Who are we?</p>
         <p>
             Subspace 620 is a social club at the University of Alberta whose area of focus is the realm of 
             Science Fiction and Fantasy. Before Corona virus, our events include Dungeons &amp; Dragons once 
@@ -57,7 +64,8 @@
         </p>
 
         <br/><br/>
-        <p class="h2">What do we do?</p>
+        <!-- What we do section -->
+        <p class="h2 text-white" style="background-color: rgba(0, 0, 0, 0.8)">What do we do?</p>
         <p>
             We have 6 steady RPG groups. Our book club is alive again for the first time in years! We're reading 
             Graceling by Kristen Cashore.
@@ -66,10 +74,12 @@
             notified when we play games! 
         </p>
 
-        <p class="h2" style="text-align:center">Join our discord server!</p>
+        <!-- Discord server section -->
+        <p class="h2 text-white" style="text-align:center; background-color: rgba(0, 0, 0, 0.8);">Join our discord server!</p>
         <p style="text-align:center"><iframe src="https://discord.com/widget?id=590962474958716958&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></p>
 
         <br/><br/>
+        <!-- Image gallery -->
         <div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -95,21 +105,26 @@
             </button>
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <!-- Some spacing for the bottom to clean it up -->
         <br/><br/>
+
+        <!-- This script must be at the bottom of the body section for the bootstrap items -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        
     </body>
+    <!-- Page footer -->
     <footer>
-        <!-- Section: Text -->
+        <!-- Text disclaimer -->
         <section class="bg-dark text-center text-white">
+            <!-- Licensing notice, identity and modification timestamp -->
             <p>
                 This website has been built using Bootstrap 5.0 and is licensed under 
                 <a href="https://en.wikipedia.org/wiki/BSD_licenses"><strong>BSD License</strong></a> unless stated otherwise.
                 <br/>
                 Subspace 620 University of Alberta Student Group 
                 <br/>
-                Last edit on April 29th, 2021 23:30
+                Page last edit on April 30th, 2021 17:13
             </p>
-            <!-- Section: Text -->
 
             <!-- Section: Copyright notice-->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
