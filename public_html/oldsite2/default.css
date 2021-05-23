@@ -1,0 +1,84 @@
+body {
+	background-color:black;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+h1, h2 {
+	color:#00CCFF
+}
+
+div.header {
+	text-align:left;
+}
+
+img.header {
+	float:right;
+}
+
+img.logo {
+	float:left;
+}
+
+div.break {
+	background-image:url('icons/crownmoulding.jpg');
+	background-repeat:repeat-x;
+	height:20px;
+	margin:0px;
+	border:0px;
+}
+
+div.nav-bar {
+	float:left;
+	height:100%;
+	width:185px;
+	text-align:left;
+	background-color:lightsteelblue;
+}
+
+div.nav-bar ul {
+	list-style-type:none;
+}
+
+div.nav-bar a:link, a:visited {
+	display:block;
+	padding-right:10px;
+	color:#0000FF;
+	text-decoration:none;
+}
+
+div.nav-bar a:hover, a:active {
+	background-color:steelblue;
+}
+
+div.content {
+	background-image:url('icons/parch-d2.jpg');
+	height:100%;
+	text-align:left;
+	margin-left:185px;
+}
+
+div.content h2, h3, p {
+	padding-left:10px;
+	color:black;
+}
+
+div.content p {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.footer p{
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+}
+
+div.footer {
+	text-align:center;
+	vertical-align:top;
+	height:100%
+}
+	

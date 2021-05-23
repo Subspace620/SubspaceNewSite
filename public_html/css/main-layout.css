@@ -1,0 +1,167 @@
+body{
+	background-color: #000;
+}
+
+#content {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+}
+
+
+#header {
+     margin: 0;
+     color: #333;
+     text-align: center;
+     padding: 2.5em 2em 0;
+     border-bottom: 1px solid #eee;
+ }
+    #header h1 {
+        margin: 0.2em 0;
+        font-size: 3em;
+        font-weight: 300;
+    }
+    #header h2 {
+        font-weight: 300;
+        color: #ccc;
+        padding: 0;
+        margin-top: 0;
+    }
+
+iframe {
+	outline: 0;
+	
+	top:0;
+	left:0;
+	width:100%;
+	overflow: hidden;
+}
+
+.content-subhead {
+    margin: 50px 0 20px 0;
+    font-weight: 300;
+    color: #888;
+}
+
+/*Style for spacing in the written sections */
+.written-right{
+	padding-left: 1em;
+}
+
+.written-left{
+	padding-right: 1em;
+}
+
+.retractable{
+	display: none;
+}
+
+.clickable{
+	cursor: pointer; cursor: hand;
+}
+
+	.clickable:hover{
+		color: #7c3431;
+	}
+
+/*Style for the legal footer*/
+
+#legal{
+	border-top: 1px solid grey;
+	font-size: 87.5%;
+	line-height: 1.6em;
+}
+
+#legal-mid{
+	padding: 1em;
+}
+
+#legal-left{
+	padding: 0 4em;
+}
+
+#legal-right{
+	text-align: right;
+	padding: 0 4em;
+}
+
+/*Style for the profile showcase*/
+.profile-showcase{
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0.5em 1em;
+	background: #7c3431;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+	.profile-showcase a{
+		text-decoration: none;
+		font-size: 20px;
+		color: #FFF;
+	}
+
+	.profile-showcase a:hover{
+		color: #999;
+	}
+
+	.profile-showcase p{
+		font-size: 20px;
+		color: #FFF;
+	}
+
+.profile-rank{
+	font-size: 1em;
+}
+
+.profile-name{
+	font-size: 1em;
+}
+
+.profile-pic img{
+	height: 70px;
+	float: right;
+}
+
+.profile-pic img:hover{
+	height: 84px;
+	margin: -7px;
+}
+
+/*Style for actual profile pages*/
+.profile-page{
+	padding-top: 1em;
+}
+
+.profile-page-name{
+	font-size: 3em;
+	margin-left: 20px;
+}
+
+.profile-page-rank{
+	margin-left: 20px;
+}
+
+/*Style for elections page*/
+.candidate-name a{
+    margin-left: 20px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+	.candidate-name a:hover{
+		color: #999;
+	}
+
+.candidate-rank{
+    margin-left: 20px;
+    font-weight: 300;
+    color: #888;
+}
+
+.candidate-record{
+    margin-left: 20px;
+	font-size: 1em;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "SubspaceShowdown",
+  "homepage": "https://github.com/Subspace620/SubspaceShowdown",
+  "authors": [
+    "Resmyx <42308368+Resmyx@users.noreply.github.com>"
+  ],
+  "description": "A new site built on showdown js",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "showdown": "^1.9.1"
+  }
+}
