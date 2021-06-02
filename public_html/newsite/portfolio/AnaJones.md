@@ -8,7 +8,7 @@
 - Joined club in February 2020
 - Promoted to Lieutenant in December 2020
 - Elected President in March 2021
-- Promoted to Captain in March 2021
+- Promoted to Captain in March 2021  
   
     
 **Education:** Information Unavailable  
