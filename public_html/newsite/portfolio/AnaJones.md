@@ -1,4 +1,3 @@
-# Ana Jones  
 **Position:** President
   
 **Rank:** Captain  
