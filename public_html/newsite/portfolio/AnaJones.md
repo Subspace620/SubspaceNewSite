@@ -1,20 +1,19 @@
-# Ana Jones
-===
+# Ana Jones  
 **Position:** President
-===
-**Rank:** Captain
-===
-**Joined:** February 2020
-===
-**Service Record:**<br/>
+  
+**Rank:** Captain  
+  
+**Joined:** February 2020  
+  
+**Service Record:**  
 - Joined club in February 2020
 - Promoted to Lieutenant in December 2020
 - Elected President in March 2021
 - Promoted to Captain in March 2021
-===
-**Education:** Information Unavailable
-===
-**Background:**
+  
+**Education:** Information Unavailable  
+  
+**Background:**  
 To all whom it may concern: the current holder (henceforth referred to as "the individual") of this position was found to be a person of interest to the Board of Acquisitions, suspected of breaching nanite expulsion laws enacted by the CEO of Planet Terra, space subregion 620. A transcript, provided below, of this person's record is to be made available to any law enforcer of security clearance grade C or higher within the government or corporate structure.
 <br/><br/>
 **[ERROR: FILE SIZE EXCEEDS STACK PARAMETERS. UNABLE TO PARSE CONTENTS OF TRANSCRIPT.]**
